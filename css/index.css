@@ -1,0 +1,30 @@
+.articleli
+{
+	margin-top: 10px;
+}
+
+button
+{
+	margin-left: 7px;
+	transition: all 0.25s ease-out;
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 8px;
+}
+
+button:hover
+{
+	background-color: #45a049;
+	cursor: pointer;
+}
+
+input[type=text]
+{
+	margin-left: 7px;
+	width: 24%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}

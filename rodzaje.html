@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Świat Gitar - Rodzaje gitar</title>
+	<meta name="description" content="Poznaj świat gitar elektrycznych. Naucz się ich budowy oraz różnych stylów gry!" />
+	<meta name="keywords" content="gitara, gitara elektryczna, budowa gitary, jak grać na gitarze, les paul, stratocaster, telecaster, flying v, tapping, sweep picking" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<link rel="icon" href="img/icon.png" type="image/png" sizes="32x32">
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/rodzaje.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap&subset=latin-ext" rel="stylesheet">
+	
+</head>
+
+<body>
+	<div id="container">
+		<div id="top"></div>
+		<div id="logo">
+			<a href="index.html" class="logolink">
+			
+				<div id="logoL">
+					<img src="img/logo.png" alt="Świat Gitar" />
+				</div>
+				
+				<div id="logoR">
+					Poznaj świat<br />gitar elektrycznych!
+				</div>
+				
+				<div style="clear: both;"></div>
+			</a>
+		</div>
+	
+		<header>
+			<div id="headernapis">Top #8 gitarzystów</div>
+			
+			<a href="https://pl.wikipedia.org/wiki/Slash" class="logolink" target="_blank"><div class="option">Slash</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Mark_Knopfler" class="logolink" target="_blank"><div class="option">Mark Knopfler</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Eddie_Van_Halen" class="logolink" target="_blank"><div class="option">Eddie Van Halen</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Steve_Vai" class="logolink" target="_blank"><div class="option">Steve Vai</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Brian_May" class="logolink" target="_blank"><div class="option">Brian May</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Herman_Li" class="logolink" target="_blank"><div class="option">Herman Li</div></a>
+			<a href="https://www.youtube.com/SteveTerreberry" class="logolink" target="_blank"><div class="option">Stevie T</div></a>
+			<a href="https://www.youtube.com/131313room" class="logolink" target="_blank"><div class="option">Ja :)</div></a>
+
+			<div style="clear: both;"></div>
+		</header>
+		
+		<section>
+			<ul class="slides">
+				<li class="slide"><img src="img/slide3.png" alt="slide" /></li>
+			</ul>
+			<h6>Slider</h6>
+		</section>
+		
+		<div id="maindiv" style="height: 1670px;">
+		<script>
+			document.getElementById("maindiv").style.height = "1281px";
+		</script>
+		
+		<aside>
+		
+			<div id="sidebarup">
+				Spis treści
+			</div>
+			
+			<nav>
+		
+				<a href="index.html" class="optionlink"><div class="optionL">Strona główna</div></a>
+				<a href="budowa.html" class="optionlink"><div class="optionL">Budowa gitary</div></a>
+				<a href="rodzaje.html" class="optionlink"><div class="optionL">Rodzaje gitar</div></a>
+				
+				<div class="wrap-collabsible">
+					<input style="display: none;" id="collapsible" class="toggle" type="checkbox" />
+					<label for="collapsible" class="lbl-toggle">Techniki gry</label>
+					<div class="collapsible-content">
+						<a href="bend.html" class="optionlink"><div class="technika">Bending</div></a>
+						<a href="tapping.html" class="optionlink"><div class="technika">Tapping</div></a>
+						<a href="sweep.html" class="optionlink"><div class="technika">Sweep picking</div></a>
+					</div>
+				</div>
+				
+				<a href="autor.html" class="optionlink"><div class="optionLautor">O autorze</div></a>
+				<a href="kontakt.html" class="optionlink"><div class="optionL">Kontakt</div></a>
+			</nav>	
+		</aside>
+			
+			<article>
+			
+				<br /><br />
+
+				<div id="bigtitle">Znane rodzaje gitar</div>
+				
+				<a href="#bottom" class="upperlink" title="Przejdź do końca artykułu"><div id="downer"><i class="icon-angle-circled-down"></i></div></a>
+				<div style="clear: both;"></div>
+				
+				<div class="articleline"></div>
+				
+				Poniżej przedstawię ci najbardziej znane rodzaje gitar elektrycznych. Różnią się one <b>nie tylko wyglądem</b>, bo też np. kluczami (3+3 lub 6), przetwornikami (humbuckery lub single coile), ilością progów itd... Generalnie, niektóre z nich mają zastosowania w różnych typach muzyki ze względu na swoje brzmienie.
+				<br /><br />
+				<h1>Les Paul</h1>
+				Mój ulubiony rodzaj. Posiada klucze 3+3, mostek tune-o-matic i dwa humbuckery.<br /><br />
+				<div style="text-align: center;"><img id="epilp" src="img/epi1.png" alt="Epiphone Les Paul Standard" /></div>
+				<br />
+				<noscript>Nie masz JavaScriptu, więc nie pokażę ci innych kolorów :(</noscript>
+				<div id="changecolor"></div>
+				<script>					
+						var div = document.createElement('div');
+						div.setAttribute("id", "buttonscolor");
+						div.setAttribute("style", "height: 40px;");
+						
+						var textdiv = document.createTextNode('Zmień kolor: ');
+						div.appendChild(textdiv);
+						
+						var button1 = document.createElement('button');
+						button1.setAttribute("type", "button");
+						button1.setAttribute("onclick", "set_color(1);");
+						var textbutton1 = document.createTextNode('Ebony');
+						button1.appendChild(textbutton1);
+						div.appendChild(button1);
+						
+						var button2 = document.createElement('button');
+						button2.setAttribute("type", "button");
+						button2.setAttribute("onclick", "set_color(2);");
+						var textbutton2 = document.createTextNode('Metallic Goldtop');
+						button2.appendChild(textbutton2);
+						div.appendChild(button2);
+						
+						var button3 = document.createElement('button');
+						button3.setAttribute("type", "button");
+						button3.setAttribute("onclick", "set_color(3);");
+						var textbutton3 = document.createTextNode('Pelham Blue');
+						button3.appendChild(textbutton3);
+						div.appendChild(button3);
+						
+						var button4 = document.createElement('button');
+						button4.setAttribute("type", "button");
+						button4.setAttribute("onclick", "set_color(4);");
+						var textbutton4 = document.createTextNode('Cardinal Red');
+						button4.appendChild(textbutton4);
+						div.appendChild(button4);
+						
+						document.getElementById("changecolor").appendChild(div);
+				</script>
+				<br /><br />
+				<h1>Stratocaster</h1>
+				Klasyczny model. Jego przetworniki to 3 x single coil lub 2 x single coil + humbucker.<br /><br />
+				<div style="text-align: center;"><img src="img/fender.png" alt="Fender Stratocaster" /></div>
+				<br /><br />
+				
+				<noscript>
+					<h1>Flying V</h1>
+					Wygląda nieźle. Jego przetworniki to humbuckery.<br /><br />
+					<div style="text-align: center;"><img src="img/flyingv.png" alt="Gibson Flying V" /></div>
+					<br /><br />
+				</noscript>
+				<div id="flyingv"></div>
+				<script>					
+						var divparent = document.createElement('div');	
+						divparent.setAttribute("id", "divparent");						
+						var text = document.createTextNode('Ostatni model to niespodzianka: ');
+						divparent.appendChild(text);
+						
+						var button = document.createElement('button');
+						button.setAttribute("type", "button");
+						button.setAttribute("onclick", "show_flying()");
+						var textbutton = document.createTextNode('Pokaż');
+						button.appendChild(textbutton);
+						divparent.appendChild(button);
+						
+						document.getElementById("flyingv").appendChild(divparent);
+				</script>
+				
+				<br /><br />
+				<div style="float: left;"><h3>Koniec artykułu</h3></div>
+				
+				<a href="#top" class="upperlink" title="Przejdź do początku strony"><div id="upper"><i class="icon-angle-circled-up"></i></div></a>
+				<div style="clear: both;"></div>
+				<br /><br />
+				
+			</article>
+			<div style="clear: both;"></div>
+			
+			</div>
+			
+		<div id="bottom"></div>
+		
+		<footer>
+			<div id="footerL">Świat Gitar - poznaj świat gitar elektrycznych. &copy;2019</div>
+			<div id="footerR"><a class="footerlink" href="mailto:swiatgitar@swiatgitar.pl"><i class="icon-mail-alt"></i> swiatgitar@swiatgitar.pl</a></div>
+			<div style="clear: both;"></div>
+		</footer>
+		
+	</div>
+	<script src="script/changecolor.js"></script>
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Świat Gitar - Kontakt</title>
+	<meta name="description" content="Poznaj świat gitar elektrycznych. Naucz się ich budowy oraz różnych stylów gry!" />
+	<meta name="keywords" content="gitara, gitara elektryczna, budowa gitary, jak grać na gitarze, les paul, stratocaster, telecaster, flying v, tapping, sweep picking" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<link rel="icon" href="img/icon.png" type="image/png" sizes="32x32">
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/kontakt.css" type="text/css" />
+	<link rel="stylesheet" href="css/jquery-ui.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap&subset=latin-ext" rel="stylesheet">
+	
+</head>
+
+<body>
+	<div id="container">
+		<div id="top"></div>
+		<div id="logo">
+			<a href="index.html" class="logolink">
+			
+				<div id="logoL">
+					<img src="img/logo.png" alt="Świat Gitar" />
+				</div>
+				
+				<div id="logoR">
+					Poznaj świat<br />gitar elektrycznych!
+				</div>
+				
+				<div style="clear: both;"></div>
+			</a>
+		</div>
+	
+		<header>
+			<div id="headernapis">Top #8 gitarzystów</div>
+			
+			<a href="https://pl.wikipedia.org/wiki/Slash" class="logolink" target="_blank"><div class="option">Slash</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Mark_Knopfler" class="logolink" target="_blank"><div class="option">Mark Knopfler</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Eddie_Van_Halen" class="logolink" target="_blank"><div class="option">Eddie Van Halen</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Steve_Vai" class="logolink" target="_blank"><div class="option">Steve Vai</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Brian_May" class="logolink" target="_blank"><div class="option">Brian May</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Herman_Li" class="logolink" target="_blank"><div class="option">Herman Li</div></a>
+			<a href="https://www.youtube.com/SteveTerreberry" class="logolink" target="_blank"><div class="option">Stevie T</div></a>
+			<a href="https://www.youtube.com/131313room" class="logolink" target="_blank"><div class="option">Ja :)</div></a>
+
+			<div style="clear: both;"></div>
+		</header>
+		
+		<section>
+			<ul class="slides">
+				<li class="slide"><img src="img/slide6.png" alt="slide" /></li>
+			</ul>
+			<h6>Slider</h6>
+		</section>
+		
+		<div id="maindiv" style="height: 1026px;">
+		
+		<aside>
+		
+			<div id="sidebarup">
+				Spis treści
+			</div>
+			
+			<nav>
+		
+				<a href="index.html" class="optionlink"><div class="optionL">Strona główna</div></a>
+				<a href="budowa.html" class="optionlink"><div class="optionL">Budowa gitary</div></a>
+				<a href="rodzaje.html" class="optionlink"><div class="optionL">Rodzaje gitar</div></a>
+				
+				<div class="wrap-collabsible">
+					<input style="display: none;" id="collapsible" class="toggle" type="checkbox" />
+					<label for="collapsible" class="lbl-toggle">Techniki gry</label>
+					<div class="collapsible-content">
+						<a href="bend.html" class="optionlink"><div class="technika">Bending</div></a>
+						<a href="tapping.html" class="optionlink"><div class="technika">Tapping</div></a>
+						<a href="sweep.html" class="optionlink"><div class="technika">Sweep picking</div></a>
+					</div>
+				</div>
+				
+				<a href="autor.html" class="optionlink"><div class="optionLautor">O autorze</div></a>
+				<a href="kontakt.html" class="optionlink"><div class="optionL">Kontakt</div></a>
+			</nav>	
+		</aside>
+			
+			<article>
+			
+				<br /><br />
+
+				<div id="bigtitle">Kontakt</div>
+				
+				<a href="#bottom" class="upperlink" title="Przejdź do końca artykułu"><div id="downer"><i class="icon-angle-circled-down"></i></div></a>
+				<div style="clear: both;"></div>
+				
+				<div class="articleline"></div>
+				
+				W celu skontaktowania się ze mną, proszę o wypełnenie poniższego formularzu. <br />
+				Pola zaznaczone * należy koniecznie wypełnić. <br /><br />
+				
+				<form action="form.php" method="post">
+				
+					<div class="row">
+						<div class="col-25">
+							<label for="name">Imię*</label>
+						</div>
+						<div class="col-75">
+							<input type="text" id="name" name="imie" placeholder="Twoje imię..." required />
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-25">
+							<label for="surname">Nazwisko*</label>
+						</div>
+						<div class="col-75">
+							<input type="text" id="surname" name="nazwisko" placeholder="Twoje nazwisko..." required />
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-25">
+							<label for="age">Wiek*</label>
+						</div>
+						<div class="col-75">
+							<input type="number" id="age" name="wiek" min="1" max="120" placeholder="Twój wiek..." required />
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-25">
+							Płeć
+						</div>
+						<div class="col-75">
+							<input type="radio" id="male" name="plec" value="mezyczna" checked><label for="male">Mężczyzna</label>
+							<input type="radio" id="female" name="plec" value="kobieta"><label for="female">Kobieta</label>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-25">
+							<label for="exp">Jak długo grasz na gitarze</label>
+						</div>
+						<div class="col-75">
+							<select id="exp" name="doswiadczenie">
+								<option value="0">Nie gram na gitarze</option>
+								<option value="1">Od miesiąca do pół roku</option>
+								<option value="2">Od pół roku do 2 lat</option>
+								<option value="3">Od 2 lat do 5 lat</option>
+								<option value="4">Więcej niż 5 lat</option>
+							</select>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-25">
+							<label for="phone">Numer telefonu</label>
+						</div>
+						<div class="col-75">
+							<input type="tel" id="phone" name="telefon" placeholder="Format 123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"/>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-25">
+							Posiadane gitary
+						</div>
+						<div class="col-75">
+							<input type="checkbox" id="guitarst" name="gitary" value="st"><label for="guitarst">Stratocaster</label>
+							<input type="checkbox" id="guitartc" name="gitary" value="tc"><label for="guitartc">Telecaster</label>
+							<input type="checkbox" id="guitarlp" name="gitary" value="lp"><label for="guitarlp">Les Paul</label>
+							<input type="checkbox" id="guitarfv" name="gitary" value="fv"><label for="guitarfv">Flying V</label>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-25">
+							<label for="message">Twoja wiadomość*</label>
+						</div>
+						<div class="col-75">
+							<textarea id="message" name="wiadomosc" placeholder="Napisz tutaj swoją wiadomość..." style="height:200px" required></textarea>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-25">
+							<label for="pic">Dołącz swoje zdjęcie</label>
+						</div>
+						<div class="col-75">
+							<input type="file" id="pic" name="zdjecie" /><br /><br />
+						</div>
+					</div>
+					
+					<div class="row">
+						
+						<input type="submit" value="Wyślij">
+						<input type="reset" value="Wyczyść">
+						<div id="buttonopener"><noscript>Ponieważ nie korzystasz z JavaScriptu, nie mogę pokazać ciekawostki :(</noscript></div>
+					</div>
+					
+					<div id="dodialogu"></div>
+					<script>
+						var button = document.createElement('button');
+						button.setAttribute("type", "button");
+						button.setAttribute("id", "opener");
+						var textbutton = document.createTextNode('Ciekawostka');
+						button.appendChild(textbutton);
+						document.getElementById("buttonopener").appendChild(button);
+					
+					    var div = document.createElement('div');
+						div.setAttribute("id", "dialog-1");
+						div.setAttribute("title", "Ciekawostka");
+						var textdiv = document.createTextNode('Możesz skontaktować się ze mną również za pomocą adresu e-mail, który podany jest w stopce strony!');
+						div.appendChild(textdiv);
+						document.getElementById("dodialogu").appendChild(div);
+					</script>
+					
+				</form>
+				
+				<br /><br /><div style="float: left;"><h3>Koniec artykułu</h3></div>
+				
+				<a href="#top" class="upperlink" title="Przejdź do początku strony"><div id="upper"><i class="icon-angle-circled-up"></i></div></a>
+				<div style="clear: both;"></div>
+				<br /><br />
+				
+			</article>
+			<div style="clear: both;"></div>
+			
+			</div>
+			
+		<div id="bottom"></div>
+		
+		<footer>
+			<div id="footerL">Świat Gitar - poznaj świat gitar elektrycznych. &copy;2019</div>
+			<div id="footerR"><a class="footerlink" href="mailto:swiatgitar@swiatgitar.pl"><i class="icon-mail-alt"></i> swiatgitar@swiatgitar.pl</a></div>
+			<div style="clear: both;"></div>
+		</footer>
+		
+	</div>
+	<script src="script/jquery.js"></script>
+	<script src="script/jquery-ui.js"></script>
+	<script src="script/dialog.js"></script>
+</body>
+</html>

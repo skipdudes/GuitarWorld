@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Świat Gitar - Poznaj gitary elektryczne</title>
+	<meta name="description" content="Poznaj świat gitar elektrycznych. Naucz się ich budowy oraz różnych stylów gry!" />
+	<meta name="keywords" content="gitara, gitara elektryczna, budowa gitary, jak grać na gitarze, les paul, stratocaster, telecaster, flying v, tapping, sweep picking" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<link rel="icon" href="img/icon.png" type="image/png" sizes="32x32" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/index.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap&subset=latin-ext" rel="stylesheet" />
+	
+</head>
+
+<body onload="check_name(); check_session();">
+	<div id="container">
+		<div id="top"></div>
+		<div id="logo">
+			<a href="index.html" class="logolink">
+			
+				<div id="logoL">
+					<img src="img/logo.png" alt="Świat Gitar" />
+				</div>
+				
+				<div id="logoR">
+					Poznaj świat<br />gitar elektrycznych!
+				</div>
+				
+				<div style="clear: both;"></div>
+			</a>
+		</div>
+	
+		<header>
+			<div id="headernapis">Top #8 gitarzystów</div>
+			
+			<a href="https://pl.wikipedia.org/wiki/Slash" class="logolink" target="_blank"><div class="option">Slash</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Mark_Knopfler" class="logolink" target="_blank"><div class="option">Mark Knopfler</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Eddie_Van_Halen" class="logolink" target="_blank"><div class="option">Eddie Van Halen</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Steve_Vai" class="logolink" target="_blank"><div class="option">Steve Vai</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Brian_May" class="logolink" target="_blank"><div class="option">Brian May</div></a>
+			<a href="https://pl.wikipedia.org/wiki/Herman_Li" class="logolink" target="_blank"><div class="option">Herman Li</div></a>
+			<a href="https://www.youtube.com/SteveTerreberry" class="logolink" target="_blank"><div class="option">Stevie T</div></a>
+			<a href="https://www.youtube.com/131313room" class="logolink" target="_blank"><div class="option">Ja :)</div></a>
+
+			<div style="clear: both;"></div>
+		</header>
+		
+		<section>
+			<noscript>
+				<div class="disclaimer">
+				<img style="float: right;" src="img/malutka_gitarka.png" alt="malutka gitarka" />
+				<h1> Tu powinien być slider ale gdzieś się zapodział :(</h1>
+				<h3>Na pocieszenie wyświetlam malutką giarkę</h3>
+				</div>
+			</noscript>
+			
+			<ul class="slides">
+				<li class="slide"><img src="img/slide1.png" alt="slide" /></li>
+				<li class="slide"><img src="img/slide2.png" alt="slide" /></li>
+				<li class="slide"><img src="img/slide3.png" alt="slide" /></li>
+				<li class="slide"><img src="img/slide4.png" alt="slide" /></li>
+				<li class="slide"><img src="img/slide5.png" alt="slide" /></li>
+				<li class="slide"><img src="img/slide6.png" alt="slide" /></li>
+				<li class="slide"><img src="img/slide1.png" alt="slide" /></li>
+			</ul>
+			
+			
+		</section>
+		
+		<div id="maindiv" style="height: 1493px;">
+		
+		<aside>
+		
+			<div id="sidebarup">
+				Spis treści
+			</div>
+			
+			<nav>
+		
+				<a href="index.html" class="optionlink"><div class="optionL">Strona główna</div></a>
+				<a href="budowa.html" class="optionlink"><div class="optionL">Budowa gitary</div></a>
+				<a href="rodzaje.html" class="optionlink"><div class="optionL">Rodzaje gitar</div></a>
+				
+				<div class="wrap-collabsible">
+					<input style="display: none;" id="collapsible" class="toggle" type="checkbox" />
+					<label for="collapsible" class="lbl-toggle">Techniki gry</label>
+					<div class="collapsible-content">
+						<a href="bend.html" class="optionlink"><div class="technika">Bending</div></a>
+						<a href="tapping.html" class="optionlink"><div class="technika">Tapping</div></a>
+						<a href="sweep.html" class="optionlink"><div class="technika">Sweep picking</div></a>
+					</div>
+				</div>
+				
+				<a href="autor.html" class="optionlink"><div class="optionLautor">O autorze</div></a>
+				<a href="kontakt.html" class="optionlink"><div class="optionL">Kontakt</div></a>
+				<div id="koniecNawigacji"></div>
+			</nav>	
+		</aside>
+			
+			<article>
+			
+				<br /><br />
+
+				<div id="bigtitle">Poznaj gitary elektryczne!</div>
+				
+				<a href="#bottom" class="upperlink" title="Przejdź do końca artykułu"><div id="downer"><i class="icon-angle-circled-down"></i></div></a>
+				<div style="clear: both;"></div>
+				
+				<div class="articleline"></div>
+				
+				<noscript>Twoja przeglądarka nie obsługuje JavaScriptu :(<br />Tutaj spytałbym cię o imię...</noscript>
+				<div id="local"></div>
+				<script>
+					    var label = document.createElement('label');
+						label.setAttribute("for", "visitor");
+						label.setAttribute("id", "forvisitor");
+						var textlabel = document.createTextNode('Jeżeli chcesz abym witał cię twoim imieniem, wprowadź je tutaj');
+						label.appendChild(textlabel);
+						document.getElementById("local").appendChild(label);
+						
+						var input = document.createElement('input');
+						input.setAttribute("type", "text");
+						input.setAttribute("id", "visitor");
+						input.setAttribute("name", "imie");
+						input.setAttribute("placeholder", "Śmiało ;)");
+						document.getElementById("local").appendChild(input);
+						
+						var button = document.createElement('button');
+						button.setAttribute("type", "button");
+						button.setAttribute("onclick", "set_name();");
+						button.setAttribute("title", "Zatwierdź imię");
+						var textbutton = document.createTextNode('Ok');
+						button.appendChild(textbutton);
+						document.getElementById("local").appendChild(button);
+				</script>
+				
+				<br />
+				Witam cię bardzo serdecznie na stronie <b>Świat Gitar</b>. Jak już się pewnie domyślasz, na tej stronie będziemy poruszali tematykę gitar, głównie elektrycznych. Nieważne czy dopiero zaczynasz swoją przygodę z gitarą, czy szarpiesz już parę lat, czy  w ogóle nie masz gitary i nie planujesz w przyszłości jej mieć, i tak <b>nauczysz się</b> tu wielu przydatnych rzeczy. Na początek powiem o jednej, ale za to bardzo ważnej zasadzie. Jeżeli chcesz, aby twoja gra na gitarze stawała się coraz lepsza technicznie oraz chcesz robić postępy z zakresu różnych technik gitarowych, <b>musisz ćwiczyć codziennie</b>. To jest absolutne minimum. Może to być nawet pół godziny, ważne żebyś tylko chwycił za wiosło i na nim poćwiczył. Lepsza jest gra po pół godziny codziennie, niż trzygodzinna lub więcej gra raz na tydzień.
+				<br /><br />
+				Skoro najważniejszą zasadę mamy już za sobą, to przedstawię ci w skrócie, czego będą dotyczyć pozostałe artykuły. Skupimy się głównie na:
+				<ol>
+					<li class="articleli"><b>Budowie gitar</b> - czyli jak zbudowane są gitary, podział na różne części gitary</li>
+					<li class="articleli"><b>Rodzajach gitar</b> - najpopularniejsze modele gitar elektrycznych</li>
+					<li class="articleli"><b>Technikach gry</b> - bardzo efektowne, ale jednocześnie wymagające dużego nakładu ćwiczeń techniki</li>
+				</ol>
+				Myślę, że te zagadnienia są najważniejsze do opanowania na początku. Jedynie <b>tapping</b> i <b>sweep picking</b> to zagadnienia bardzo zaawansowane, zatem radziłbym uczyć się ich dopiero po wymasterowaniu poprzednich technik czy też zwykłego grania kostką naprzemiennie (alternate picking).
+				<br /><br />
+				Nauka gry na gitarze jest bardzo przyjemna i nie trzeba się do niej zrażać ilością ćwiczeń. Mało tego, ćwiczenia możesz konstruować <b>sam</b>, spowalniając riff danej piosenki i grając go przy zmniejszonym tempie, a następnie po opanowaniu tej zagrywki w danym <b>BPM</b> podnosić je lekko w górę. Jest to najlepsza metoda na naukę szybkiego grania na gitarze.
+				<br /><br />
+				Na zakończenie tego artykułu dodam, abyś nigdy się nie zniechęcał. Są dni, kiedy po prostu na gitarze idzie nam gorzej, ale i są dni kiedy idzie nam lepiej. Pamiętaj, <b>praktyka czyni mistrza</b>, także regularne ćwiczenia z pewnością sprawią, że po jakimś czasie będziesz zamiatał na gryfie niczym <b>Zakk Wylde</b>. Jeżeli nie wiesz, kto to jest Zakk Wylde, to poniżej wstawię jego zdjęcie. Jeżeli dalej nie wiesz kto to jest, wyszukaj jego nazwisko w internecie i posłuchaj skomponowane przez niego solówki. Powiem jedno: warto <b>;)</b><br /><br />
+				
+				<div style="text-align: center;"><img src="img/zakk.png" alt="Zakk Wylde" /></div>
+				
+				
+				<br /><br />
+				<noscript>Pewnie już to wiesz... ale twoja przeglądarka nadal nie obsługuje JavaScriptu ://</noscript>
+				<div id="session"></div>
+				<script>
+						var text = document.createTextNode('Pytanie kontrolne:');
+						document.getElementById("session").appendChild(text);
+						
+						var div = document.createElement('div');
+						div.setAttribute("id", "exercise");
+						div.setAttribute("style", "height: 40px;");
+						
+						var textdiv = document.createTextNode('Czy ćwiczyłeś/ćwiczyłaś dzisiaj na gitarze?');
+						div.appendChild(textdiv);
+						
+						var button1 = document.createElement('button');
+						button1.setAttribute("type", "button");
+						button1.setAttribute("onclick", "set_session(1);");
+						var textbutton1 = document.createTextNode('Tak');
+						button1.appendChild(textbutton1);
+						div.appendChild(button1);
+						
+						var button0 = document.createElement('button');
+						button0.setAttribute("type", "button");
+						button0.setAttribute("onclick", "set_session(0);");
+						var textbutton0 = document.createTextNode('Nie');
+						button0.appendChild(textbutton0);
+						div.appendChild(button0);
+						
+						document.getElementById("session").appendChild(div);
+				</script>
+				
+				<br /><br />
+				
+				<div style="float: left;"><h3>Koniec artykułu</h3></div>
+				
+				<a href="#top" class="upperlink" title="Przejdź do początku strony"><div id="upper"><i class="icon-angle-circled-up"></i></div></a>
+				<div style="clear: both;"></div>
+				<br /><br />
+				
+			</article>
+			<div style="clear: both;"></div>
+			
+			</div>
+			
+		<div id="bottom"></div>
+		
+		<footer>
+			<div id="footerL">Świat Gitar - poznaj świat gitar elektrycznych. &copy;2019</div>
+			<div id="footerR"><a class="footerlink" href="mailto:swiatgitar@swiatgitar.pl"><i class="icon-mail-alt"></i> swiatgitar@swiatgitar.pl</a></div>
+			<div style="clear: both;"></div>
+		</footer>
+		
+	</div>
+	<script src="script/jquery.js"></script>
+	<script src="script/slider.js"></script>
+	<script src="script/local.js"></script>
+	<script src="script/session.js"></script>
+</body>
+</html>

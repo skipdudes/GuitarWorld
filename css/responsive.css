@@ -1,0 +1,145 @@
+@media only screen and (max-width: 768px)
+{
+	body
+	{
+		background-image: none;
+		background-size: auto auto;
+		background-attachment: scroll;
+		margin: 0;
+	}
+	
+	#container
+	{
+		width: 100%;
+		height:inherit;
+		margin: 0;
+	}
+	
+	article
+	{
+		padding:5%;
+		width: 90%;
+		position: static;
+	}
+	
+	header, section, #logoR, #sidebarup, #footerL
+	{
+		display: none;
+	}
+	
+	#logo
+	{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin: 0;
+		border: 0;
+		padding:2%;
+		width: 96%;
+	}
+	
+	#logoL
+	{
+		height: auto;
+		text-align: center;
+		margin: 0;
+		border: 0;
+		padding:2%;
+		width: 96%;
+	}
+	
+	aside
+	{
+		height: auto;
+		position: static;
+		margin: 0;
+		border: 0;
+		padding:2%;
+		width: 96%;
+	}
+	
+	nav
+	{
+		padding: 0;
+	}
+	
+	.lbl-toggle:hover 
+	{
+		background-color: lightgray;
+		color: black;
+		cursor: auto;
+	}
+	
+	.optionL, .wrap-collabsible, .optionLautor
+	{
+		border: 0;
+	}
+	
+	#koniecNawigacji
+	{
+		clear: both;
+	}
+	
+	img
+	{
+		height: auto;
+		width: 100%;
+	}
+	
+	#maindiv
+	{
+		height: auto !important;
+	}
+	
+	#bigtitle, #footerR
+	{
+		margin: 0;
+		border: 0;
+		padding:2%;
+		width: 96%;
+	}
+	
+	footer
+	{
+		border:0;
+		margin:0;
+	}
+	
+	#local, #session, #footerR
+	{
+		text-align:center;
+	}
+	
+	.articleli
+	{
+		text-align:left;
+	}
+	
+	iframe
+	{
+		width: auto;
+		height: auto;
+	}
+	
+	#resultvote, #vote
+	{
+		text-align: center;
+	}
+	
+	button:hover
+	{
+		background-color: #4CAF50;
+		cursor: auto;
+	}
+	
+	#upper:hover,#downer:hover
+	{
+		cursor: auto;
+		color: #128870;
+	}
+	
+	#buttonopener
+	{
+		text-align: left;
+	}
+}

@@ -1,0 +1,34 @@
+.heightNoJS
+{
+	height: 1461px;
+}
+
+.heightJS
+{
+	height: 2360px;
+}
+
+#yamahac30m, #vintagev100bb, #filmyYT
+{
+	text-align: center;
+}
+
+a.autortextlink
+{
+	transition: all 0.25s ease-out;
+	cursor: pointer;
+	color: #0c98bd;
+	text-decoration: none;
+}
+
+a.autortextlink:hover
+{
+	color: #128870;
+}
+
+.voteclass
+{
+	box-sizing: border-box;
+	margin-top: 5px;
+	width: 100%;
+}
